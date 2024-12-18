@@ -18,7 +18,7 @@ FUNCTION toFloat(number)
 END FUNCTION
 
 FUNCTION splitTheNota(summa, tip, friends)
-    RETURN CALCCULATE (summa PLUS (tip GÅNGER summma)) DELAT PÅ friends
+    RETURN CALCCULATE ((summa PLUS (tip GÅNGER summma)) DELAT PÅ friends) avrundat till två decimaler
 END FUNCTION
 
 WHEN (användaren klickar på button) THEN  // Hittade på WHEN som en beskrivining av en händelsebaserad programmering, typ addEventListener
